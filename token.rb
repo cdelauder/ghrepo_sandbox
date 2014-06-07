@@ -22,7 +22,7 @@ end
 
 def prompt_username
   puts "github username > "
-  username = gets.chomp
+  username = STDIN.gets.chomp
 end
 
 def set_password
